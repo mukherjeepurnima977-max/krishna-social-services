@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Social Service - Ambulance Provider</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
+        header { background-color: #d32f2f; color: white; padding: 20px; text-align: center; }
+        nav { background-color: #b71c1c; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        section { padding: 40px; max-width: 1200px; margin: auto; }
+        .hero { background-color: #ffebee; text-align: center; padding: 60px 20px; }
+        .services { display: flex; flex-wrap: wrap; justify-content: space-around; }
+        .service { background-color: #f5f5f5; padding: 20px; margin: 10px; width: 300px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
+        .service img { width: 100px; height: 100px; object-fit: cover; border-radius: 50%; margin-bottom: 10px; }
+        .contact { background-color: #e8f5e8; text-align: center; }
+        .contact img { max-width: 300px; height: auto; border-radius: 8px; margin: 20px 0; }
+        .emergency { background-color: #ffcdd2; text-align: center; padding: 20px; font-size: 1.2em; border: 2px solid #d32f2f; }
+        button { background-color: #d32f2f; color: white; border: none; padding: 10px 20px; cursor: pointer; font-size: 1.1em; border-radius: 5px; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; }
+        .about-columns { display: flex; flex-wrap: wrap; gap: 20px; align-items: center; }
+        .about-krishna { flex: 1; text-align: center; }
+        .about-founder { flex: 1; text-align: center; }
+        .about-krishna img { max-width: 250px; max-height: 250px; object-fit: cover; border-radius: 8px; }
+        .about-founder img { width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px; }
+        @media (max-width: 768px) { .about-columns { flex-direction: column; } .services { flex-direction: column; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Krishna Social Service</h1>
+        <p>Your health but we care most. We are here 24 hours open for you.</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home" class="hero">
+        <h2>Welcome to Krishna Social Service</h2>
+        <p>Your trusted ambulance provider for safe, affordable, and clean transportation. We're here 24/7 to prioritize your health and safety.</p>
+        <div class="emergency">
+            <p><strong>Emergency? Call Now!</strong></p>
+            <button onclick="window.location.href='tel:9836804444'">Call 9836804444</button>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Krishna Social Service is an ambulance providing agency where you can get ambulance for reasonable prices. Your safety is our first concern. Healthy life comes from cleanliness therefore we prioritize cleanliness. We are working with the best hospitals of the city like - Tata Medical Center, Manipal Hospital, Apollo Hospital, Institute of Neurosciences, and others.</p>
+        <div class="about-columns">
+            <div class="about-krishna">
+                <h3>Krishna</h3>
+                <img src="https://i.ibb.co/ynK3Hvgx/IMG-20260122-220339.jpg" alt="Krishna">
+                <p>The inspiration behind Krishna Social Service.</p>
+            </div>
+            <div class="about-founder">
+                <h3>Founder</h3>
+                <img src="https://i.ibb.co/g52wJcf/Screenshot-2026-01-22-21-47-58-28-a23b203fd3aafc6dcb84e438dda678b6.jpg" alt="Founder Biplab Mukherjee">
+                <p><strong>Biplab Mukherjee</strong></p>
+                <p>Our visionary founder who started this service to help the community.</p>
+            </div>
+        </div>
+        <p><strong>Our Full Team:</strong></p>
+        <ul>
+            <li><strong>CEO:</strong> Arindam Mukherjee</li>
+            <li><strong>Managing Director:</strong> Shampa Mukherjee</li>
+        </ul>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <img src="https://i.ibb.co/n8qJBMzd/IMG-20260122-WA0009.jpg" alt="Ambulance service">
+                <h3>Affordable Ambulance Services</h3>
+                <p>Get reliable ambulance transportation at reasonable prices, ensuring your safety and comfort during every ride.</p>
+            </div>
+            <div class="service">
+                <img src="https://i.ibb.co/hR7vYh6d/Screenshot-2026-01-22-21-49-15-30-6012fa4d4ddec268fc5c7112cbb265e7.jpg" alt="Safety first">
+                <h3>Safety First</h3>
+                <p>Our top priority is your safety, with trained professionals and well-maintained vehicles for all emergencies.</p>
+            </div>
+            <div class="service">
+                <img src="https://i.ibb.co/4RTXFRqY/IMG-20260122-WA0007.jpg" alt="Cleanliness">
+                <h3>Cleanliness & Hygiene</h3>
+                <p>We prioritize cleanliness to promote healthy living, with sanitized ambulances and strict hygiene protocols.</p>
+            </div>
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Hospital partnerships">
+                <h3>Hospital Partnerships</h3>
+                <p>Collaborating with leading hospitals like Tata Medical Center, Manipal Hospital, Apollo Hospital, and Institute of Neurosciences for seamless care.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Contact and location">
+        <p><strong>Emergency Phone Numbers:</strong> 9836804444 / 8777372034 / +917605871042</p>
+        <p><strong>Address:</strong> 26 No Nanda Mallick Lane</p>
+        <p><strong>Hours:</strong> 24/7</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Krishna Social Service. All rights reserved.</p>
+    </footer>
+    <script>
+        // Simple script to highlight active nav link
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelectorAll('nav a').forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
